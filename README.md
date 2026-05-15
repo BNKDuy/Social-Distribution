@@ -1,32 +1,26 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/zUKWOP3z)
-CMPUT404-project-socialdistribution
+CMPUT404-project-social-distribution
 ===================================
-Team Members:
-Tiana Huynh,
-Vinu Aravindh Ramesh,
-Vinay Joshi,
-Son Tran,
-Duy Bui Nguyen Khuong,
-Aykhan Teymurlu
+A distributed social network built with Django, designed for seamless communication and content sharing across independent servers (nodes).  
+  
+**Team Members**:
+- Duy Bui Nguyen Khuong
+- Tiana Huynh
+- Vinu Aravindh Ramesh
+- Vinay Joshi
+- Son Tran
+- Aykhan Teymurlu
 
-CMPUT404-project-socialdistribution
+## Overview
 
-See [the web page](https://uofa-cmput404.github.io/general/project.html) for a description of the project.
+This platform is part of a federated ecosystem. Each "node" acts as an independent social media server, but through a common REST API specification, users on Server A can follow, like, and comment on posts from users on Server B.
 
-Teams we have a full connection with:
-* Tomato
-* Aquamarine
-* Sienna
-* Mistyrose
-* Azure
-
-Teams we have a partial connection with:
-* Whitesmoke
-* Cornflowerblue
+## Tech Stack
+- **Backend**: Django
+- **Database**: PostgreSQL
+- **Authentication**: JWT & HTTP Basic Auth
+- **API Specification**: REST
 
 ## License
-
-* Choose an OSI approved license, name it here, and copy the license text to a file called `LICENSE`.
 
 GNU General Public License version 3
 
